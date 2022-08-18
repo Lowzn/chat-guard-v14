@@ -1,0 +1,22 @@
+{
+  "name": "Raven",
+  "version": "4.0.0",
+  "description": "Raven sunucusu için yapılmış basit chat guard botu.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Raven",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "croxydb": "^0.0.7",
+    "discord.js": "^14.0.1",
+    "fs": "^0.0.1-security",
+    "mcg-anti-spam": "^0.0.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
